@@ -7,7 +7,7 @@ This Front-end-works repository was maintained by me to add some useful UI and s
 ## Inside the Repository
 
 - TailwindCSS applocations(Study Folder) <br>
-    1.Display property using block,inline-block,flex,drid
+    1.Display property using block,inline-block,flex,grid
 - Google Clone page
 - Footer page
 - Contact Form
