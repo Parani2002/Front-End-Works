@@ -29,8 +29,9 @@ Install my-project with npm
 ```
     
 ## Screenshots
+<img width="1696" alt="Screenshot 2024-07-07 at 6 25 43 PM" src="https://github.com/Parani2002/Front-End-Works/assets/126932987/3d08d9d5-2eb2-4b0f-9b49-7e809a71228c">
 
-![](https://placehold.co/600x400)
-![](https://placehold.co/600x400)
+<img width="1696" alt="Screenshot 2024-07-07 at 6 25 06 PM" src="https://github.com/Parani2002/Front-End-Works/assets/126932987/5f4785c1-177c-4292-aa6b-045196b32685">
+
 
 
