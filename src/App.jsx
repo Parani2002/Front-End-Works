@@ -1,13 +1,14 @@
 
-import Google from "./components/Google";
+
 
 import React from "react";
+import Flex from "./components/Study/Flex";
 function App() {
 
 
   return (
     <div>
-      <Google />
+      <Flex />
     
     </div>
     
