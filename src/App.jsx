@@ -2,13 +2,13 @@
 
 
 import React from "react";
-import Flex from "./components/Study/Flex";
+import Contact from "./components/Contact";
 function App() {
 
 
   return (
     <div>
-      <Flex />
+      <Contact />
     
     </div>
     
