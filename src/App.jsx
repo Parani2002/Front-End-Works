@@ -1,14 +1,12 @@
 
-
-
 import React from "react";
-import Contact from "./components/Contact";
+import Refhook from "./components/Study/Refhook";
 function App() {
 
 
   return (
     <div>
-      <Contact />
+      <Refhook />
     
     </div>
     
