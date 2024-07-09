@@ -1,12 +1,12 @@
 
 import React from "react";
-import Refhook from "./components/Study/Refhook";
+import Hero from "./components/Hero";
 function App() {
 
 
   return (
     <div>
-      <Refhook />
+      <Hero />
     
     </div>
     
