@@ -31,7 +31,10 @@ const Hero = () => {
                 <button className='border text-white bg-violet-600 hover:bg-violet-800 px-4 py-2 rounded-lg tracking-wide' onClick={showContact}>Get started</button>
                 <button className='border text-violet-500 bg-slate-200 hover:bg-slate-300 px-4 py-2 rounded-lg tracking-wide'>Live Demo</button>
             </div>
-            {isVisible && <div>Contact us via 0778819814</div>}
+            {isVisible && <div>
+                <h1 className='font-bold'>Contact Number: 0778819814</h1>
+                <h1 className='font-bold'>Email Address: company@gmail.com</h1>
+                </div>}
         </section>
     </div>
     <div className='w-1/2'>
