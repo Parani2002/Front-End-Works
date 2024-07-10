@@ -6,8 +6,6 @@ const Hero = () => {
     const showContact = () => setVisible(true)
   return (
     <div className='flex'>
-
-    
     <div className='p-8 h-screen w-3/4'>
         <header className='flex justify-between items-center mb-16'>
             <img src="src/assets/6543592.jpg" alt="" srcset="" className='h-20 w-20 '/>
