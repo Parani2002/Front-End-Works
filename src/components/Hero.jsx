@@ -1,6 +1,9 @@
-import React from 'react'
+import {React,useState} from 'react'
 
 const Hero = () => {
+    const[isVisible,setVisible] = useState(false)
+
+    const showContact = () => setVisible(true)
   return (
     <div className='flex'>
 
@@ -25,9 +28,10 @@ const Hero = () => {
             </div>
             <div className='text-slate-500 mb-8 mt-4'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse tempore ullam porro officiis nostrum! Nihil facilis optio repellat in voluptas reprehenderit alias recusandae ex atque, corporis dolorum vitae, Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad voluptates incidunt quo eius at hic voluptas autem, tempora corporis provident iste, nostrum inventore delectus? Eveniet cupiditate ad ipsam excepturi nostrum.</div>
             <div className='flex gap-4'>
-                <button className='border text-white bg-violet-600 hover:bg-violet-800 px-4 py-2 rounded-lg tracking-wide'>Get started</button>
+                <button className='border text-white bg-violet-600 hover:bg-violet-800 px-4 py-2 rounded-lg tracking-wide' onClick={showContact}>Get started</button>
                 <button className='border text-violet-500 bg-slate-200 hover:bg-slate-300 px-4 py-2 rounded-lg tracking-wide'>Live Demo</button>
             </div>
+            {isVisible && <div>Contact us via 0778819814</div>}
         </section>
     </div>
     <div className='w-1/2'>
