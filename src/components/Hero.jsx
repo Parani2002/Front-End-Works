@@ -18,7 +18,7 @@ const Hero = () => {
                 </button>
             </nav>
         </header>
-        <section>
+        <section id='main'>
             <div className='flex flex-col mb-8'>
                 <p className='text-7xl font-extrabold mb-2 tracking-normal'>Data to enrich your</p>
                 <p className='text-7xl font-extrabold text-violet-800'>online buisness </p>
