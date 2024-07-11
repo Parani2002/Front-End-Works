@@ -15,7 +15,7 @@ const Hero = () => {
                 <a href="" className='text-lg hover:text-gray-600'>Features</a>
                 <a href="" className='text-lg hover:text-gray-600'>Marketplace</a>
                 <button className='border rounded-lg bg-violet-500 px-4 py-2 hover:bg-violet-600 transition hover:transition-transform-300'>
-                    <a href="" className='text-lg'>Contact US</a>
+                    <a href="" className='text-lg'>Contact us</a>
                 </button>
             </nav>
         </header>
