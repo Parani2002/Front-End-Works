@@ -1,12 +1,13 @@
 import React from "react";
 
-import Layout from './components/Study/Layout'
+import Hero from './components/Hero'
 function App() {
   
 
   return (
     <div>
-      <Layout />
+      
+    
       
     </div>
 
