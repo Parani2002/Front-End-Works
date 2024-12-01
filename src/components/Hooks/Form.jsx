@@ -81,7 +81,7 @@ const Form = () => {
               },
             })}
           />
-           <button type="button" onClick={useEffect()}>Delete</button>
+           <button type="button" onClick={() => remove(index)}>Delete</button>
           </div>
         ))}
         <p>{errors.address?.message}</p>
